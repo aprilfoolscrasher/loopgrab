@@ -1,0 +1,10 @@
+while task.wait() do
+    local Root = game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+    for Index, Pad in pairs(workspace.Terrain._Game.Admin.Pads:GetChildren()) do
+        local Head = Pad:FindFirstChild("Head")
+        if (Root and Head and Pad.Name == "Touch to get admin") then
+            firetouchinterest(Head, Root, 0)
+            firetouchinterest(Head, Root, 1)
+        end
+    end
+end
