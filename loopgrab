@@ -380,7 +380,7 @@ addCommand("potatocrash",{"player"},function(args)
             wait()
         end
         chr.HumanoidRootPart.Anchored=false
-        chr.HumanoidRootPart.CFrame = 9ooooooooolk,pos
+        chr.HumanoidRootPart.CFrame = pos
     end
     wait(0.1)
     if cacheAntiKick then runCommand(prefix.."antikick",{}) end
@@ -428,10 +428,6 @@ addCommand("potatocrashsound",{"player","soundid"},function(args)
         wait()
         for i=1,5 do
             game.Players:Chat("gear me 25741198")
-            wait()
-            game.players:Chat("ff "..v.Name)
-            wait()
-            game.Players:Chat("ff me")
             wait()
         end
         wait()
